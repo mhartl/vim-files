@@ -1,0 +1,2 @@
+tComment.vba: call delete('/home/mhartl/.vim/doc/tComment.txt')|call delete('/home/mhartl/.vim/plugin/tComment.vim')|call delete('/home/mhartl/.vim/autoload/tcomment.vim')
+snippy_plugin.vba: call delete('/home/mhartl/.vim/plugin/snippetsEmu.vim')|call delete('/home/mhartl/.vim/doc/snippets_emu.txt')
