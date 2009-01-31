@@ -6,15 +6,11 @@ let st = g:snip_start_tag
 let et = g:snip_end_tag
 let cd = g:snip_elem_delim
 
-exec "Snippet do do<CR>".st.et."<CR>end<CR>".st.et
 exec "Snippet class class ".st."className".et."<CR>".st.et."<CR>end<CR>".st.et
 exec "Snippet begin begin<CR>".st.et."<CR>rescue ".st."Exception".et." => ".st."e".et."<CR>".st.et."<CR>end<CR>".st.et
 exec "Snippet each_with_index0 each_with_index do |".st."element".et.", ".st."index".et."|<CR>".st."element".et.".".st.et."<CR>end<CR>".st.et
 exec "Snippet collect collect { |".st."element".et."| ".st."element".et.".".st.et." }<CR>".st.et
 exec "Snippet forin for ".st."element".et." in ".st."collection".et."<CR>".st."element".et.".".st.et."<CR>end<CR>".st.et
-exec "Snippet doo do |".st."object".et."|<CR>".st.et."<CR>end<CR>".st.et
-exec "Snippet : :".st."key".et." => \"".st."value".et."\"".st.et."<CR>".st.et
-exec "Snippet def def ".st."methodName".et."<CR>".st.et."<CR>end<CR>".st.et
 exec "Snippet case case ".st."object".et."<CR>when ".st."condition".et."<CR>".st.et."<CR>end<CR>".st.et
 exec "Snippet collecto collect do |".st."element".et."|<CR>".st."element".et.".".st.et."<CR>end<CR>".st.et
 exec "Snippet each each { |".st."element".et."| ".st."element".et.".".st.et." }<CR>".st.et
