@@ -30,10 +30,6 @@ autocmd FileType make set noexpandtab
 
 syntax on
 let mapleader = ","
-let g:fuzzy_ignore = "*.log"
-let g:fuzzy_matching_limit = 70
-map <leader>b :FuzzyFinderBuffer<CR>
-map <leader>f :FuzzyFinderFile<CR>
 map <F5> {!}fmt
 map <F2> :set nonumber
 colorscheme desert256
