@@ -18,6 +18,7 @@ set tabstop=18
 set wrap
 set linebreak
 set ruler
+set grepprg=ack
  
 " Visual
 set showmatch  " Show matching brackets.
