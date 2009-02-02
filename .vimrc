@@ -14,7 +14,7 @@ set history=256  " Number of things to remember in history.
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 " I hate tabs, so set them to something long & obvious.
 " (Can's use lcs=tab:>- because 'set list' breaks 'set linebreak'.)
-set tabstop=18
+set tabstop=8
 set wrap
 set linebreak
 set ruler
