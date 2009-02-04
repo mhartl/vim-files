@@ -18,7 +18,6 @@ set tabstop=8
 set wrap
 set linebreak
 set ruler
-set grepprg=ack
  
 " Visual
 set showmatch  " Show matching brackets.
@@ -34,3 +33,5 @@ let mapleader = ","
 map <F5> {!}fmt
 map <F2> :set nonumber
 colorscheme desert256
+
+
