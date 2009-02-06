@@ -34,5 +34,3 @@ let mapleader = ","
 map <F5> {!}fmt
 map <F2> :set nonumber
 colorscheme desert256
-
-
