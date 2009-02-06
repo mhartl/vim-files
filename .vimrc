@@ -18,6 +18,7 @@ set tabstop=8
 set wrap
 set linebreak
 set ruler
+set ignorecase
  
 " Visual
 set showmatch  " Show matching brackets.
